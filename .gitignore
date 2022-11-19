@@ -1,3 +1,9 @@
+# for data privacy, vCards are not actually uploaded
+*.vcf
+*.vcard
+data/
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

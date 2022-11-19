@@ -53,7 +53,7 @@ def convertOne(
     return vc
 
 
-def toVCard(cs: list) -> list:
+def toVCard(cs: list[tuple]) -> list:
     return [
         convertOne(c[0][0], c[0][1], c[1], suffix="YouChooze") for c in cs if c[1]
     ]  # convert to vCard, if number is given

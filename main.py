@@ -9,6 +9,6 @@ Line 3: Writes these vCards to a given location (in `.vcf` format)
 """
 
 
-contacts = importContacts("data/yc_contacts.csv")
+contacts = importContacts("data/contacts.csv")
 vCards = toVCard(contacts)
 writeVCFs(vCards, "./output/")
